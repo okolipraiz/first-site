@@ -66,18 +66,19 @@ nav{
     .nav-links{
         position: fixed;
         background: black;
-        height: 100vh;
+        height: 33vh;
         width:  100%; 
         flex-direction: column;
-        clip-path: circle(100px at 90% -10%);
-        -webkit-clip-path: circle(100px at 90% -10%);
+        clip-path: circle(100px at 90% -50%);
+        -webkit-clip-path: circle(100px at 90% -50%);
         transition: all 1s ease-out;
         pointer-events: none;
+        opacity: 0.9;
     }
 
     .nav-links.open{
-        clip-path: circle(1000px at 90% -10%);
-        -webkit-clip-path: circle(1000px at 90% -10%);
+        clip-path: circle(1000px at 90% -50%);
+        -webkit-clip-path: circle(1000px at 90% -50%);
         pointer-events: all;
     }
 
@@ -85,7 +86,8 @@ nav{
         opacity: 0 !important;
     }
     .nav-links li a{
-        font-size: 20px !important;
+        font-size: 17px !important;
+        font-weight: bolder;
     }
     .nav-links li:nth-child(1){
        transition: all 0.5s ease 0.2s; 
@@ -108,6 +110,7 @@ nav{
     height: 150px;
     border-radius: 50%;
     align-content: center;
+    box-shadow: 0px 0px 10px 0px grey;
 }
 
 .article{
@@ -266,7 +269,7 @@ p::first-letter{
 }
 
 .label{
-    font-size: 20px !important;
+    font-size: 25px !important;
         text-align: center;
         padding-top: 10vh;
         color: white;
