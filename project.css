@@ -6,6 +6,7 @@
 body{
     background-image:url(wall\ \(43\).jpg);
     font-family: sans-serif;
+    
 }
 
 
@@ -264,8 +265,7 @@ li i{
 }
 
 p::first-letter{
-    font-size: larger;
-    padding-left: 20px;
+    font-size: x-large;
 }
 
 .label{
@@ -273,4 +273,6 @@ p::first-letter{
         text-align: center;
         padding-top: 10vh;
         color: white;
+        padding-left: 20px;
+        padding-right: 30px;
 }
