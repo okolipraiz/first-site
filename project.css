@@ -6,7 +6,6 @@
 body{
     background-image:url(wall\ \(43\).jpg);
     font-family: sans-serif;
-    
 }
 
 
@@ -157,12 +156,18 @@ h1{
     line-height: 25px;
 }
 
+.footer-items p::first-letter{
+    font-size: medium;
+}
+
+
 h2{
     margin: 10px 0;
     color: grey;
     font-size: 16px !important;
     font-weight: lighter;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .border {
@@ -271,8 +276,6 @@ p::first-letter{
 .label{
     font-size: 25px !important;
         text-align: center;
-        padding-top: 10vh;
+        padding-top: 5vh;
         color: white;
-        padding-left: 20px;
-        padding-right: 30px;
 }
