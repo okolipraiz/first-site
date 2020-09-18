@@ -20,9 +20,16 @@ center{
     color: white;  
 }
 
+header{
+    position: sticky !important;
+    top: 0 !important;
+    
+}
+
 nav{
     height: 10vh;
     background: black;
+    opacity: 0.9;
 }
 
 .nav-links{
@@ -279,4 +286,8 @@ p::first-letter{
         text-align: center;
         padding-top: 5vh;
         color: white;
+}
+
+p{
+    text-shadow: rgb(0,0,0,0.8);
 }
